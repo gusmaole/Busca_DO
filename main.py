@@ -74,16 +74,16 @@ wb.save("DO.xlsx")
 # Configurações do servidor SMTP
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = 'leandrogusmao@prof.educacao.sp.gov.br'
-smtp_password = 'Leibmg40'
+smtp_username = '' #E-mail que irá enviar a mensagem
+smtp_password = '' #Senha
 
 # Crie um objeto MIMEMultipart
 msg = MIMEMultipart()
 
 # Configuração dos campos do e-mail
 msg['From'] = smtp_username
-msg['To'] = 'leandrogusmao@professor.educacao.sp.gov.br'
-msg['Subject'] = 'Atualização diário oficial'
+msg['To'] = '' #Inserir e-mail destino
+msg['Subject'] = 'Atualização diário oficial' #Título do e-mail
 
 # Corpo do e-mail
 corpo = 'Segue anexo atualização semanal do diário oficial'
