@@ -1,2 +1,1 @@
-# projetos
-Meus projetos em Python
+Desenvolvido com as bibliotecas Selenium e Openpyxl, essa automação busca uma palavra chave no diário oficial de São Paulo, filtra os dados por data, coleta  as informações da página e data de publicação e um pequeno trecho da publicação, salva em uma planilha excel e a envia por e-mail.
